@@ -8,7 +8,7 @@ tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: ## Use a jQuery-based local search engine, true/false.
 google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
-show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
+show_category_count: true ## If you want to show the count of categories in the sidebar widget please set the value to true.
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
 widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
@@ -17,9 +17,12 @@ menu:
   - page: home
     directory: .
     icon: fa-home
-  - page: archive
-    directory: archives/
+  - page: blog
+    directory: _archives/
     icon: fa-archive
+  - page: categories
+    directory: /categories/
+    icon: paint-brush
   - page: about
     directory: about/
     icon: fa-user
@@ -36,8 +39,9 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
+  - title: gihub
+    icon: fa-home
+    url: http://www.github.com/luxuexian99/
   - title: site-name2
     url: http://www.example2.com/
   - title: site-name3
@@ -58,4 +62,4 @@ js: js
 css: css
 
 # Theme version
-version: 0.0.0
+version: 0.1.0
