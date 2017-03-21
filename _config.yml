@@ -18,7 +18,7 @@ menu:
     directory: .
     icon: fa-home
   - page: blog
-    directory: _archives/
+    directory: archives/
     icon: fa-archive
   - page: categories
     directory: /categories/
